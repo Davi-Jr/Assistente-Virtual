@@ -115,7 +115,6 @@ print('[INFO] Inicializando o Sistema...'.center(60))
 play_audio('n1.mp3')
 mensagem = f"{saudacao()}, sou a {meu_nome}. {choice(entradas)}"
 print('═' * 60)
-print(f"🔊 {meu_nome.upper()}: {mensagem}")
 speak(mensagem)
 
 # Loop principal
