@@ -62,8 +62,12 @@ conda activate isa
 3. **Instalação de Dependências**
 
 
-Última etapa será baixar todas as dependências necessárias e importantes para conseguir executar da maneira correta nossa **Isa**. Leva em média de *2 a 3 minutos* para ser baixado todos os pacotes. Após finalizar a instalação, já é possível executar o arquivo principal **Isa.py**
+Última etapa será baixar todas as dependências necessárias e importantes para conseguir executar da maneira correta nossa **Isa**. Leva menos de *1 minuto* para ser baixado todos os pacotes. Após finalizar a instalação, já é possível executar o arquivo principal **Isa.py**
 ```bash
 pip install -r requirements.txt
 ```
+<p align="center">
+  <img src="Isa/img/requirements.png" alt="Selecionar interpretador" width="88%"/>
+</p>
+
 [🔴 Execução da Assistente em Vídeo](https://youtu.be/)
