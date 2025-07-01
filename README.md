@@ -70,4 +70,4 @@ pip install -r requirements.txt
   <img src="Isa/img/requirements.png" alt="Selecionar interpretador" width="88%"/>
 </p>
 
-[🔴 Execução da Assistente em Vídeo](https://youtu.be/)
+[🔴 Execução da Assistente em Vídeo](https://youtu.be/67dqmKZ3Sxo)
