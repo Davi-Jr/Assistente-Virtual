@@ -1,6 +1,18 @@
-# 🤖 Assistente Virtual - Isa
+# 🤖 Isa - Assistente Virtual
 
 Isa é uma assistente virtual desenvolvida em Python, capaz de realizar tarefas por comando de voz, como informar a hora, abrir sites, tocar músicas e muito mais. O projeto tem fins acadêmicos e demonstra o uso de automação com voz e web. Futuramente, será integrada com IA local via Ollama.
+
+---
+
+## 📋 Índice
+
+- [🛠️ Tecnologias](#tecnologias)
+- [✅ Funcionalidades](#funcionalidades)
+- [📋 Pré-requisitos](#pré-requisitos)
+- [📥 Instalação](#instalação)
+- [🚀 Como usar](#como-usar)
+- [🎥 Demonstração](#demonstração)
+- [📄 Licença](#licença)
 
 ---
 
@@ -8,66 +20,97 @@ Isa é uma assistente virtual desenvolvida em Python, capaz de realizar tarefas 
 
 O projeto foi inicialmente desenvolvido com **Anaconda Navigator** e **PyCharm**, mas neste guia será apresentada uma alternativa utilizando **VS Code**, pela sua leveza e preferência pessoal.
 
-## ✅ Funcionalidades
-
-- 🕒 Informar a data e hora atual
-- 🌐 Acessar sites como Google, YouTube, etc.
-- 🎵 Tocar músicas no YouTube Music
-- 🧠 Integração com ChatGPT via **Ollama** *(em breve)*
-- ☁️ Consultar a meteorologia via API **OpenWeatherMap**
-
-
-
-## 🚀 Como usar
-
-### 🔧 Pré-requisitos
-
-- [Anaconda ou Miniconda](https://www.anaconda.com/products/distribution) (Baixado)
-- Python **3.9.23**
-- Google Chrome instalado
-- VS Code (ou PyCharm, opcional)
-- Ambiente virtual
-- Dependências instaladas via `requirements.txt`
+**Principais ferramentas:**
+- Python
+- Anaconda / Miniconda
+- VS Code (ou PyCharm)
+- Bibliotecas: speech_recognition, pyttsx3, pywhatkit, requests, entre outras (veja [requirements.txt](Isa/requirements.txt))
 
 ---
 
-### 📥 Instalação
+## ✅ Funcionalidades
 
-1. **Clone o repositório:**
+| Ícone | Funcionalidade | Status |
+|-------|---------------|--------|
+| 🕒 | Informar a data e hora atual | ✅ Disponivel |
+| 🌐 | Acessar sites como Google, YouTube, etc. | ✅ Disponivel |
+| 🎵 | Tocar músicas no YouTube Music | ✅ Disponivel |
+| ☁️ | Consultar a meteorologia via API OpenWeatherMap | ✅ Disponivel |
+
+---
+
+## 📋 Pré-requisitos
+
+Antes de começar, certifique-se de ter:
+
+- [✅] Python instalado (Versão para uso : **3.9.23**)
+- [✅] [Anaconda ou Miniconda](https://www.anaconda.com/products/distribution) instalado
+- [✅] [Google Chrome](https://www.google.com/chrome/) instalado
+- [✅] [VS Code](https://code.visualstudio.com/) (ou PyCharm, opcional)
+- [✅] Repositório clonado
+
+---
+
+## 📥 Instalação
+
+### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/DaveBrito/Assistente-Virtual.git
-cd Assistente-Virtual 
+git clone https://github.com/Davi-Jr/Assistente-Virtual.git
+
 cd Isa
 ```
-2. **Criação do Ambiente Virtual:**
 
+### 2. Crie o ambiente virtual
 
-Como estamos utilizando o Anaconda, não necessito baixar a versão específica do Py em minha máquina. **isa**(nome do ambiente virtual) será criada para demonstrar o guia de instalação para executar nossa Assistente Virtual.
+Como estamos utilizando o Anaconda, **não é necessário baixar uma versão específica do Python separadamente.** O ambiente `isa` será criado para isolar as dependências do projeto.
+
 ```bash
 conda create -n isa python==3.9.23
+
 conda activate isa
 ```
-<p align="center">
-  <img src="Isa/img/create-conda.png" alt="Terminal VS Code ativo" width="78%"/>
-  <img src="Isa/img/activate-conda.png" alt="Terminal VS Code ativo" width="78%"/>
-</p>
 
-* Após a criação do ambiente, será necessário selecionar o Interpretador do Py no **VsCode**. Pode utilizar o comando, **Ctrl+Shift+P** como atalho, e selecionar sua versão do ambiente para execução.(isa)
+![Criar ambiente](Isa/img/create-conda.png)
 
-<p align="center">
-  <img src="Isa/img/interpretador.png" alt="Selecionar interpretador" width="78%"/>
-</p>
+<img src="Isa/img/activate-conda.png" width="91%">
 
-3. **Instalação de Dependências**
+> **Dica:** Após criar o ambiente, selecione o interpretador no VS Code. Use o atalho `Ctrl+Shift+P` e selecione a versão do Python do ambiente `isa`.
 
+![Selecionar interpretador](Isa/img/interpretador.png)
 
-Última etapa será baixar todas as dependências necessárias e importantes para conseguir executar da maneira correta nossa **Isa**. Leva menos de *1 minuto* para ser baixado todos os pacotes. Após finalizar a instalação, já é possível executar o arquivo principal **Isa.py**
+### 3. Instale as dependências
+
+Última etapa: baixar todas as dependências necessárias. Leva menos de *1 minuto*.
+
 ```bash
 pip install -r requirements.txt
 ```
-<p align="center">
-  <img src="Isa/img/requirements.png" alt="Selecionar interpretador" width="88%"/>
-</p>
 
-[🔴 Execução da Assistente em Vídeo](https://youtu.be/67dqmKZ3Sxo)
+![Instalar dependências](Isa/img/requirements.png)
+
+---
+
+## 🚀 Como usar
+
+1. Execute o arquivo principal:
+   ```bash
+   python Isa.py
+   ```
+
+2. A assistente ouvirá seus comandos de voz e responderá automaticamente.
+
+---
+
+## 🎥 Demonstração
+
+Assista ao vídeo de demonstração: [Execução da Assistente em Vídeo](https://youtu.be/67dqmKZ3Sxo)
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso acadêmico. Sinta-se livre para estudar e modificar conforme necessário.
+
+---
+
