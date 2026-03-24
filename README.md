@@ -73,7 +73,7 @@ conda activate isa
 
 ![Criar ambiente](Isa/img/create-conda.png)
 
-<img src="Isa/img/activate-conda.png" width="91%">
+<img src="Isa/img/activate-conda.png" width="62%">
 
 > **Dica:** Após criar o ambiente, selecione o interpretador no VS Code. Use o atalho `Ctrl+Shift+P` e selecione a versão do Python do ambiente `isa`.
 
