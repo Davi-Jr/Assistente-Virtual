@@ -28,7 +28,7 @@ O projeto foi inicialmente desenvolvido com **Anaconda Navigator** e **PyCharm**
 
 ---
 
-## ✅ Funcionalidades
+## ✅ Funcionalidades <a id="funcionalidades"></a>
 
 | Ícone | Funcionalidade | Status |
 |-------|---------------|--------|
@@ -39,7 +39,7 @@ O projeto foi inicialmente desenvolvido com **Anaconda Navigator** e **PyCharm**
 
 ---
 
-## 📋 Pré-requisitos
+## 📋 Pré-requisitos <a id="pré-requisitos"></a>
 
 Antes de começar, certifique-se de ter:
 
@@ -51,7 +51,7 @@ Antes de começar, certifique-se de ter:
 
 ---
 
-## 📥 Instalação
+## 📥 Instalação <a id="instalação"></a>
 
 ### 1. Clone o repositório
 
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Como usar
+## 🚀 Como usar <a id="como-usar"></a>
 
 1. Execute o arquivo principal:
    ```bash
@@ -102,13 +102,13 @@ pip install -r requirements.txt
 
 ---
 
-## 🎥 Demonstração
+## 🎥 Demonstração <a id="demonstração"></a>
 
 Assista ao vídeo de demonstração: [Execução da Assistente em Vídeo](https://youtu.be/67dqmKZ3Sxo)
 
 ---
 
-## 📄 Licença
+## 📄 Licença <a id="licença"></a>
 
 Este projeto é de uso acadêmico. Sinta-se livre para estudar e modificar conforme necessário.
 
