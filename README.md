@@ -6,7 +6,7 @@ Isa é uma assistente virtual desenvolvida em Python, capaz de realizar tarefas 
 
 ## 📋 Índice
 
-- [🛠️ Tecnologias](#-tecnologias)
+- [🛠️ Tecnologias](#tecnologias)
 - [✅ Funcionalidades](#funcionalidades)
 - [📋 Pré-requisitos](#pré-requisitos)
 - [📥 Instalação](#instalação)
@@ -16,7 +16,7 @@ Isa é uma assistente virtual desenvolvida em Python, capaz de realizar tarefas 
 
 ---
 
-## 🛠️ Tecnologias <a id=tecnologias </a>
+## 🛠️ Tecnologias <a id="tecnologias"></a>
 
 O projeto foi inicialmente desenvolvido com **Anaconda Navigator** e **PyCharm**, mas neste guia será apresentada uma alternativa utilizando **VS Code**, pela sua leveza e preferência pessoal.
 
