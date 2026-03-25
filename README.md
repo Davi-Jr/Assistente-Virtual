@@ -104,7 +104,18 @@ pip install -r requirements.txt
 
 ## 🎥 Demonstração <a id="demonstração"></a>
 
-Assista ao vídeo de demonstração: [Execução da Assistente em Vídeo](https://youtu.be/67dqmKZ3Sxo)
+<div align="left">
+  <a href="https://youtu.be/RFPc1wYizew" target="_blank">
+    <img 
+      src="https://img.youtube.com/vi/RFPc1wYizew/maxresdefault.jpg" 
+      alt="▶ Assistente em Vídeo — clique para assistir" 
+      width="600"
+      style="border-radius: 12px; border: 2px solid #333;"
+    />
+  </a>
+  <br/>
+  <sub>▶ Clique na imagem para assistir ao vídeo de demonstração</sub>
+</div>
 
 ---
 
